@@ -13,6 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  flex-direction: column;
+  pad: 20px;
 }
 
 .container {
@@ -20,7 +22,7 @@ body {
   border-radius: 5px;
   background: #3baea0;
   max-width: 100%;
-  width: 500px;
+  width: 800px;
   padding: 50px 20px;
   text-align: center;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
@@ -34,11 +36,11 @@ h3 {
 
 .joke {
   font-size: 25px;
-  letter-spacing: 1.2px;
-  line-height: 1.2px;
-  margin: 30px;
-  max-width: 400px;
+  line-height: 40px;
+  margin: 30px auto;
+  max-width: 600px;
   color: #fff;
+  white-space: normal;
 }
 
 .btn {
