@@ -58,3 +58,9 @@ h3 {
 .btn:active {
   transform: scale(0.9);
 }
+
+@media screen and (max-width: 675px) {
+  .container {
+    max-width: 90%;
+  }
+}
